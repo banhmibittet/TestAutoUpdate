@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Practice Environment.exe" version="1.0.0.6" publicKeyToken="ca2bb04cce262bd5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Practice Environment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Practice Environment.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Emgu.CV.World.dll" size="641536">
+      <assemblyIdentity name="Emgu.CV.World" version="3.4.3.3016" publicKeyToken="7281126722AB4438" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LPjf7h2jcRUG+dRQluyvfkBhcHkZZSK7XYj0dh21IO4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KAutoHelper.dll" size="59904">
+      <assemblyIdentity name="KAutoHelper" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XZdgCOwJAJHyu4juX6Rfm0Y+BWjDyC1mblD2o7yAtms=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Practice Environment.exe" size="12752">
+      <assemblyIdentity name="Practice Environment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>B1ttdlyHknM7FIZvi+SbDapIkOICSQinjHxqUC1xTCs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="concrt140.dll" size="242496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R1lhVXFqpARTzbdV38OS5qofwLP5ktssXWlOW7Dn/BY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cvextern.dll" size="26215424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>77peIaiznv3CvzDaHxibA3uGyiuzCokNja38AQTFK+w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="msvcp140.dll" size="440120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M05prJNn9wjOYBpvSQ/yJ9bCBjbaUiLxSLJYMdIuE9Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_ffmpeg341.dll" size="17123840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C2+/Yz9MQhLxytEFydMVNu6ai9JnwRi/wzxaKK6tf04=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_ffmpeg343.dll" size="17124352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>whs1Y+60merB7qAueyHXiZ8aAITKoLETCeqAfxhfkjs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Practice Environment.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vcruntime140.dll" size="83784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xAuwMZmiBU2r/HqOAdYJjpHecZNhnv+9DxQqe/AxwU0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=47C225EE55\BMRingo" issuerKeyHash="b66346fb146ee37e68da725c26f856ddd7310f4e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zc8M3OsoBSuH8pnMLL0MhZkWHrYFJIOXaJ9PMAc0vzw=</DigestValue></Reference></SignedInfo><SignatureValue>OBo5EoVoc9OjVQ+SdjRGkC4dK2qNB2wW4uNJiKQqxRLRkQ5LWsNz1a+DHrN8JbDJDAMjLZlqdklFDsJB2plvHt7tUNTj8/jBkJ5QXAAejs/e72rlNFHi8zn1tKpAO9BH1I9sjjVN0UaRT4JA5ViZJ3nhitsRspF/KDXsyH4WH0k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tCcdNhTNZlNNIgVnwaOtvkqlNRf3dSgW1i7jTBxyWBc+tZwjL87fIjrWgj7y6mrvwBqdBl6hr3SgJ06O6IgX1co57KisMgyejOq/9uIZaGfnI2yhD8LnvKNGvnjLruEJyV23/n4LET+z9EKbUVhZysNyYhtdWcV2aRCokNLYI1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3cbf3407304f9f6897832405b61e1699850cbd2ccc99f2872b0528ebdc0ccfcd" Description="" Url=""><as:assemblyIdentity name="Practice Environment.exe" version="1.0.0.6" publicKeyToken="ca2bb04cce262bd5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=47C225EE55\BMRingo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5YPvzuzhtnuQdbsnh100EuOuxV42R+FUjwWEoLtDL0k=</DigestValue></Reference></SignedInfo><SignatureValue>VO6p23Od7VpN/L1l3nCQzQOx7picE9m7QuZi3aCa0aw0dLkEC+JUJvcyzpeFaqwIKp0AOTUDkjEypo42L3ANu9uBQpqlKPV3VMZbpFyOLjIXDcZR4QSp4WwF9bP/Cr9mLPY3i8grxlCICF9Gfft6C3klO6hniM9aI8ea/t5Nlgw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tCcdNhTNZlNNIgVnwaOtvkqlNRf3dSgW1i7jTBxyWBc+tZwjL87fIjrWgj7y6mrvwBqdBl6hr3SgJ06O6IgX1co57KisMgyejOq/9uIZaGfnI2yhD8LnvKNGvnjLruEJyV23/n4LET+z9EKbUVhZysNyYhtdWcV2aRCokNLYI1U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQH3Z9s0QBz6hLS5+FQ+3hqTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQANAA3AEMAMgAyADUARQBFADUANQBcAEIATQBSAGkAbgBnAG8wHhcNMjIwNjA5MTEwMzQ4WhcNMjMwNjA5MTcwMzQ4WjAvMS0wKwYDVQQDHiQANAA3AEMAMgAyADUARQBFADUANQBcAEIATQBSAGkAbgBnAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALQnHTYUzWZTTSIFZ8Gjrb5KpTUX93UoFtYu40wcclgXPrWcIy/O3yI61oI+8upq78AanQZeoa90oCdOjuiIF9XKOeyorDIMnozqv/biGWhn5yNsoQ/C57yjRr54y67hCcldt/5+CxE/s/RCm1FYWcrDcmIbXVnFdmkQqJDS2CNVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEArORjeNtCCsg6dz4YB9UUAjOH9MrD4z2dpKP/7OteZnn2gEAR817ZiUTmdjj4URxeFZ/800cYem0kWvi9F3GWKTA8hdhGbTyZyGWaGM7uaIdYfaMqS+j20XZAOT3XXBKCsDBvCjDJJcCBbvspDalXw+oWhTnvoNyzaRpuliSKZLw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
