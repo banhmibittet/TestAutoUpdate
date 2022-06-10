@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Practice.exe" version="1.0.0.2" publicKeyToken="f04ba3aa4d3d58da" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Practice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Practice.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Practice.exe" size="14800">
+      <assemblyIdentity name="Practice" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QD9jc5oKJw94tpeJTp3tJCyvW6XfwJvfmIx0+sh8JHU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="obfuscar.xml" size="267" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F669tDpH/+/8AE4AHxlfTs1MFC/VzGAqQVTNrut502c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Practice.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=47C225EE55\BMRingo" issuerKeyHash="8f859464249e475dbba7c4ee462ee877d711d85c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RXblT761xWwd6mzpP6xJZKpHpm9I6SlR1MRRKkj7bG8=</DigestValue></Reference></SignedInfo><SignatureValue>Em7cNcnnEBUkvBXSZQ5S0YwgtRgSqznvHxl/YP9Q9dxa/bZjdFUbMPvic4YJKYoX9vaVFAqPK1IPK8+fShXU7s/FtYNmDnFUwiLAj6v1+ptqwDEr2xjwo65V6EYgU+S8aV6UlzaXpmnHr4yFZ/2CRQJ71fDBp8AimURjVZkY4sA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1b900w3CfxXgwaatp5aZ7wcSJy5rrHMgxQUrKwd2/QHMINfm15GfWdc5MmZjruRZxVCLv2jUs23ZtGslTRS30mTWj7r+t1+TaiVuH6BaYpRLHjXsuv5nK3rJ6VPdnI8qTjJPpFV25+KqbJ7uWdHUo53YtgMAt1Drucr0ZlWHkuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6f6cfb482a51c4d45129e9486fa647aa6449ac3fe96cea1d6cc5b5be4fe57645" Description="" Url=""><as:assemblyIdentity name="Practice.exe" version="1.0.0.2" publicKeyToken="f04ba3aa4d3d58da" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=47C225EE55\BMRingo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FkvpvLAeKuBATzkliDS8svQWP+WjK+Gff/UT/RCeOUo=</DigestValue></Reference></SignedInfo><SignatureValue>zI6hM2nJhsiSKSigjhqw63DxmpyS5WMN0c6QhtnXqjGMVySlQEbAuZzRR7WZHd+m3q+Svbqr7znZTrk/bQUB5hZBDNSOm/yNsh0A8Flic8oARxkm6+c61BZiuDQ5pVINJziNajbWG9xtmqdb61calrSaIm/5PTeiC75wxyPx4oI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1b900w3CfxXgwaatp5aZ7wcSJy5rrHMgxQUrKwd2/QHMINfm15GfWdc5MmZjruRZxVCLv2jUs23ZtGslTRS30mTWj7r+t1+TaiVuH6BaYpRLHjXsuv5nK3rJ6VPdnI8qTjJPpFV25+KqbJ7uWdHUo53YtgMAt1Drucr0ZlWHkuU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQa5HzPxQCYqtOpzRZ7S4gmzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQANAA3AEMAMgAyADUARQBFADUANQBcAEIATQBSAGkAbgBnAG8wHhcNMjIwNjEwMDk1MTQ2WhcNMjMwNjEwMTU1MTQ2WjAvMS0wKwYDVQQDHiQANAA3AEMAMgAyADUARQBFADUANQBcAEIATQBSAGkAbgBnAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANW/dNMNwn8V4MGmraeWme8HEicua6xzIMUFKysHdv0BzCDX5teRn1nXOTJmY67kWcVQi79o1LNt2bRrJU0Ut9Jk1o+6/rdfk2olbh+gWmKUSx417Lr+Zyt6yelT3ZyPKk4yT6RVdufiqmye7lnR1KOd2LYDALdQ67nK9GZVh5LlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAm7G9c9U0nSz9O2Rzumdqk9cprxfuvJJ2mRwIOVNjlja+MAUKTpKjOETv6BT240+okpDzGjU8QPxs57RAzNYiqK+/wJTUj21heVzXBdddukO7RIA0eTltPP1PYeAKqBkPwrljAY4JJ9O9j1/pu4YRVYIxfTFKQoaB7ZtAuW7IPiE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
